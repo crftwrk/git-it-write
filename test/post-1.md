@@ -67,3 +67,4 @@ function change_navbar_offcanvas_title($title) {
 add_filter('bootscore/offcanvas/navbar/title', 'change_navbar_offcanvas_title');
 ```
 
+kkkkk
