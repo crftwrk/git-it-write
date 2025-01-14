@@ -4,7 +4,7 @@ title: My Git it write page
 menu_order: 1
 post_status: publish
 post_excerpt: This is a post excerpt
-featured_image: _images/post-image.jpg
+featured_image: https://dev.bootscore.me/wp-content/uploads/2013/03/soworthloving-wallpaper-1536x960.jpg
 
 
 ---
@@ -48,3 +48,11 @@ This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another po
 </style>
 
 ### Section with Shortcodes
+
+### Code
+
+```css
+body {
+  background-color: red !important;
+}
+```
