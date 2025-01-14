@@ -56,3 +56,14 @@ body {
   background-color: red !important;
 }
 ```
+
+```php
+/**
+ * Change navbar offcanvas title
+ */
+function change_navbar_offcanvas_title($title) {
+  return 'My Menu';
+}
+add_filter('bootscore/offcanvas/navbar/title', 'change_navbar_offcanvas_title');
+```
+
